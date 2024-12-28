@@ -48,7 +48,7 @@ function ContactUs() {
   };
 
   return (
-    <div className="h-auto lg:h-screen bg-black w-full flex items-center justify-center px-6 sm:px-8 flex-col sm:flex-row" id="contact-us">
+    <div className="h-auto lg:h-screen bg-black w-screen flex items-center justify-center px-6 sm:px-8 flex-col sm:flex-row" id="contact-us">
       <div className="text-white w-full sm:w-1/2 flex flex-col justify-center p-6">
         <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-[#00FF3E] text-shadow-lg">
           Let's Connect

@@ -53,19 +53,19 @@ function Skills() {
         ))}
       < */}
 
-
-        <div className="text-center mb-8">
-          <h1 className="text-white text-4xl mb-4">Technologies and Tools</h1>
-          <div className="w-[500px] h-1 bg-[#00FF3E] mx-auto"></div>
-        </div>
-
-
-
-        <SkillsScroller />
-        {/* <Education_Experience /> */}
-        <SkillsList />
+<div className="text-center mb-8">
+  <h1 className=" text-4xl mb-4 lg:text-white text-white ">
+    Skills
+  </h1>
+  <div className=" w-[200px] h-1 bg-[#00FF3E] mx-auto"></div>
+</div>
 
 
+
+
+      <SkillsScroller />
+      {/* <Education_Experience /> */}
+      <SkillsList />
     </div>
   );
 }

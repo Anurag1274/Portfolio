@@ -2,7 +2,7 @@ import React from 'react';
 
 function Education({}) {
   return (
-    <div className="h-auto w-full bg-black flex items-center justify-center px-6 sm:px-8 flex-col sm:flex-row">
+    <div className="h-auto w-screen bg-black flex items-center justify-center px-6 sm:px-8 flex-col sm:flex-row">
       <div className="text-white w-full sm:w-1/2 flex flex-col justify-center p-6">
         <h2 className="text-4xl sm:text-5xl font-bold mb-8 text-[#00FF3E] text-shadow-lg">
           Education

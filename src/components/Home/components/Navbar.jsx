@@ -70,21 +70,23 @@ function Navbar({ homeRef, aboutRef, skillsRef, projectsRef, contactsRef, educat
           <a
             className="hover:text-primary-light mb-2 cursor-pointer"
             onClick={() => {
-              scrollToSection(aboutRef);
-              toggleMenu();
-            }}
-          >
-            About
-          </a>
-          <a
-            className="hover:text-primary-light mb-2 cursor-pointer"
-            onClick={() => {
               scrollToSection(skillsRef);
               toggleMenu();
             }}
           >
             Skills
           </a>
+            
+          <a
+            className="hover:text-primary-light mb-2 cursor-pointer"
+            onClick={() => {
+              scrollToSection(educationRef);
+              toggleMenu();
+            }}
+          >
+            Education
+          </a>
+
           <a
             className="hover:text-primary-light mb-2 cursor-pointer"
             onClick={() => {
